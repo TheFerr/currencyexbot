@@ -42,7 +42,7 @@ class BrokerAPI:
         raise ValueError(f'Currency name did not find in our DB: {curr}')
 
     @staticmethod
-    def check_input(intext: str) -> list:
+    def check_input(intext: str) -> tuple:
         tlist = intext.lower().split(' ')
         if len(tlist)<3:
             raise ValueError('Invalid request format - less than 3 parameters space separated')

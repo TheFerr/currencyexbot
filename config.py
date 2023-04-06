@@ -1,5 +1,5 @@
-tokenTg = '____'
-tokenCu = '____'
+tokenTg = '___'
+tokenCu = '___'
 
 currs = {'рубль': 'RUR',
          'доллар': 'USD',
