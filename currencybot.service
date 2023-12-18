@@ -1,0 +1,17 @@
+# Mini service unit file
+# 
+[Unit]
+Description=Tg Bot CryptoCurrency
+
+[Service]
+PIDFile=/run/tgbot.pid
+WorkingDirectory=/home/tgbot/
+User=tgbot
+Group=tgbots
+Environment="PATH=/usr/local/bin:/usr/bin/:/usr/local/sbin:/usr/sbin/"
+Type=simple
+OOMScoreAdjust=500
+ExecStart=python3 tgbot.py
+
+[Install]
+WantedBy=multi-user.target
