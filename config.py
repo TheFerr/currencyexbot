@@ -1,7 +1,7 @@
 tokenTg = '___'
 tokenCu = '___'
 
-currs = {'рубль': 'RUR',
+currs = {'рубль': 'RUB',
          'доллар': 'USD',
          'евро': 'EUR',
          'биткоин': 'BTC',
